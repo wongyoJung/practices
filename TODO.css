@@ -1,0 +1,85 @@
+.inputs{
+  display:grid;
+  grid-template-rows:2em;
+  grid-template-columns: 1fr auto; /* in order to make the height of input box and button equally I made two objects in a same row and gave them each part of grid*/
+  width:80%;
+}
+
+.haveTo{
+  color:red;
+}
+#input{
+
+  width:100%;
+  font-size:20px;
+  margin:0;
+  border:0;
+  border-bottom:1px solid black;
+}
+.addBtn{
+  color: white;
+  background-color:black;
+  padding:5px;
+  width:10px;
+  border-width:0px;
+}
+
+.addBtn:hover{
+  cursor:pointer;
+}
+
+
+.done{
+  background-color:gray;
+  color:white;
+  padding: 3px 6px;
+  float:right;
+  font-size:14px;
+  height:80%;
+}
+
+.done:hover{
+  background-color:#f4d942;
+  cursor:pointer;
+}
+
+#todoLists{
+  font-size:20px;
+
+}
+
+.close {
+  background-color:gray;
+  color:white;
+  padding: 3px 6px;
+  float:right;
+  font-size:14px;
+  height:80%;
+}
+
+.close:hover{
+  background-color:green;
+  cursor:pointer;
+}
+
+
+
+ul li{
+  position:relative;
+  width:40%;
+  padding:2px;
+  border:0;
+  margin:0;
+  padding-top:0;
+  padding-right:0;
+
+}
+
+ul li:hover{
+  cursor:pointer;
+  background-color:#f2f7ff;
+}
+
+ul li.checked{
+  background: yellow;
+}

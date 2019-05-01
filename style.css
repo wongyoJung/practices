@@ -1,0 +1,19 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:black;
+}
+#HeadTitle{
+  background-color:black;
+  color:white;
+  padding:25px;
+  margin:0;
+  text-align: center;
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
